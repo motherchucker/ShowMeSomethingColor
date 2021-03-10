@@ -1,7 +1,7 @@
 # ShowMeSomethingColor App
 A project ShowMeSomethingColor made for personal amusement.
 
-## **Autor**:
+## **Author**:
 
 Lorena Mršić
 
