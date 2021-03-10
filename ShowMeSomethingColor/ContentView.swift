@@ -99,7 +99,10 @@ struct ContentView: View {
                 Spacer()
                 
                 if result != ""{
-                    Text("Something \(color): ").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold()
+                    HStack {
+                        Text("Something ").font(.title)
+                        Text("\(color) ").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold()
+                    }
                 }
                 
                 HStack {
